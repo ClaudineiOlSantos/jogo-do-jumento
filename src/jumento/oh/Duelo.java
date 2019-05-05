@@ -69,11 +69,10 @@ public class Duelo {
     }
 
     /**
-     * Executa um ataque no oponente
-     *
-     * @param atacante Indice do atacante no arrayList
-     * @param defensor Indice do defensor do atacante no arrayList
-     * @return
+     * Executa ataque 
+     * @param atacante
+     * @param defensor
+     * @return 
      */
     private String playerAtaque(int atacante, int defensor) {
         int ataque;
